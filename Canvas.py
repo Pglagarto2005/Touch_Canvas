@@ -20,7 +20,7 @@ with st.sidebar:
 
   stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
 
-  be_color = st.color_picker("Color del fondo", "#000000")
+  bg_color = st.color_picker("Color del fondo", "#000000")
 
 canvas_result = st_canvas(
   fill_color ="rgba(255, 165, 0, 0.3)",
