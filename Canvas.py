@@ -31,5 +31,5 @@ canvas_result = st_canvas(
     height=canvas_height,
     drawing_mode=drawing_mode,
     key=f"canvas_{canvas_width}_{canvas_height}",
-  )
+)
   
