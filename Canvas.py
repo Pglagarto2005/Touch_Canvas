@@ -22,13 +22,13 @@ with st.sidebar:
     bg_color = st.color_picker("Color del fondo", "#000000")
 
 canvas_result = st_canvas(
-    fill_color ="rgba(255, 165, 0, 0.3)",
+    fill_color="rgba(255, 165, 0, 0.3)",
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
-    height=300,
-    width=400,
+    height=canvas_height,
+    width=canvas_width,
     drawing_mode=drawing_mode,
-    key="canvas",
+    key=f"canvas_{canvas_width}_{canvas_height}",
 )
   
