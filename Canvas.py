@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlir-drawable-canvas import st_canvas
+from streamlir_drawable_canvas import st_canvas
 
 st.title("PAINT")
 
