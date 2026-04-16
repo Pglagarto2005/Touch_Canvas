@@ -12,7 +12,7 @@ with st.sidebar:
   
     drawing_mode = st.selectbox(
       "Trazos",
-      ("Pincel", "Linea", "Rectangulo", "Circulo", "Transform", "Poligono", "Point"),
+      ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
     )
   
     stroke_width = st.slider ("Selecciona el tamaño de tu Trazo", 1, 30, 15)
@@ -26,9 +26,9 @@ canvas_result = st_canvas(
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
-    height=canvas_height,
-    width=canvas_width,
+    height=300,
+    width=400,
     drawing_mode=drawing_mode,
-    key=f"canvas_{canvas_width}_{canvas_height}",
+    key="canvas",
 )
   
